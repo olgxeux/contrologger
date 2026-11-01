@@ -1,6 +1,6 @@
 # Envonitor
 
-Environmental logging and servo control firmware for STM32F411CEU6 written in C using STM32 HAL and CubeMX.
+Environmental logging and servo control firmware for STM32F411CEU6 written in C using STM32 HAL, CubeMX and Codex.
 
 The project measures temperature, humidity and atmospheric pressure, controls an SG90 servo using a potentiometer and displays data on an OLED. It was built to practice fault handling, automatic recovery and a non-blocking embedded architecture.
 
@@ -28,7 +28,7 @@ The project measures temperature, humidity and atmospheric pressure, controls an
 ## Connections
 
 - USART1: PA9 TX, PA10 RX, 115200 8N1
-- I2C1: PB6 SCL, PB7 SDA, 100 kHz
+- I2C1: PB8 SCL, PB9 SDA, 100 kHz
 - ADC1: PA0
 - TIM3 CH1: PA6 - SG90 control signal, 50 Hz
 
