@@ -1,0 +1,15 @@
+build/
+
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+
+.vscode/
+.idea/
+
+
+*.swp
+*~
